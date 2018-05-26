@@ -1,0 +1,212 @@
+.flex-container {
+display: -webkit-flex;
+display: flex;
+list-style: none;
+}
+header {
+	width:100vw;
+	height:100vh;
+	background-image: url(http://images.tinypic.pl/i/00965/c7wvndsa69un.png);
+}
+nav {
+	color:white;
+}
+header > nav ul > li {
+	padding: 5px;
+	margin:20px;
+	display:inline-block;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header > nav ul > li:hover {
+	color:rgb(254,209,54);
+	cursor:pointer;
+	font-weight: bolder;
+}
+.flex-container {
+display:flex;
+}
+.golden {
+color:rgb(254,209,54);
+font-family: 'Oleo Script', cursive;
+font-size: 20px;
+position: absolute;
+width:100px;
+height:100px;
+text-align:center;
+top:4%;
+left:20%;
+}
+nav > ul {
+	right:15%;
+	position: absolute;
+}
+.welcome {
+	color:white;
+	text-align: center;
+	font-size:30px;
+	font-family: 'PT Serif', serif;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.services {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	width:100vw;
+	height:200px;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size:40px;
+	font-weight: 700;
+}
+
+.margin-left {
+	margin-left:12%;
+}
+.services2 {
+	position:relative;
+	display: flex;
+	float:left;
+	height:300px;
+	width:25%;
+	justify-content: center;
+	align-items: center;
+	color:rgb(254,209,54);
+}
+.golden:hover {
+	font-size:25px;
+	cursor: pointer;
+}
+.span {
+font-family: 'Oleo Script', cursive;
+font-size: 20px;
+position: absolute;
+top:60%;
+opacity: 0.6;
+}
+.border {
+border-radius:50%;
+color:rgb(254,209,54);
+}
+.services-txt {
+	top:60%;
+	color:black;
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+.services-txt2 {
+	top:70%;
+	color:black;
+	position: absolute;
+	font-family: 'Oleo script', cursive;
+	font-size: 12px;
+	text-align: center;
+	opacity: 0.6;
+}
+.portfolio {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100vw;
+	height:250px;
+	font-size:30px;
+}
+.row {
+	content: "";
+	display: table;
+	clear: both;
+ }
+ .container2 {
+ margin: 20px;
+width:100%;
+max-width: 700px;
+margin: auto;
+height:600px;
+}
+ .container3 {
+ margin: 20px;
+width:100%;
+max-width: 700px;
+margin: auto;
+height:1000px;
+}
+.gal-element {
+ width:30%;
+ height:300px;
+	}
+.gallery {
+justify-content: space-between;
+display:flex;
+flex-wrap: wrap;
+}
+.gal-picture {
+width:100%;
+height:75%;
+}
+.gal-text {
+text-align: center;
+width:100%;
+height:25%;
+}
+.pic1 {
+	background-image: url("https://image.ibb.co/jGcX0o/zadanie_golden_0000s_0000s_0000s_0000_Image.png");
+	background-size:cover;
+	background-position: center;
+}
+.pic2 {
+	background-image: url(https://image.ibb.co/eSA7Y8/zadanie_golden_0000s_0000s_0002s_0000_Image.png);
+	background-size:cover;
+	background-position: center;
+}
+.text1 {
+	font-size:20px;
+	font-family:'Montserrat';
+	font-weight: bold;
+}
+.text2 {
+	font-size:15px;
+	font-family: 'Oleo Script', cursive;
+	font-weight: bold;
+	opacity:0.8;
+}
+.grey {
+	background: rgb(247,247,247);
+}
+.gal-element:hover {
+	opacity:0.9;
+	cursor: pointer;
+}
+.container3-1 {
+	margin-top: 5%;
+	text-align: right;
+	width:35%;
+	height:20%;
+}
+.container3-2 {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:30%;
+	height:20%;
+}
+.container3-3 {
+	margin-top: 5%;
+	text-align: left;
+	width:35%;
+	height:20%;
+}
+.circle {
+	background-image: url(https://image.ibb.co/jr3YQo/zadanie_golden_0000s_0001s_0000_Image.png);
+	height:90%;
+	width:90%;
+	border:4px solid rgb(241,241,241);
+	border-radius: 50%;
+}
